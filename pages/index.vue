@@ -1,27 +1,30 @@
 <template>
   <div class="container">
     <div>
-      <logo />
       <h1 class="title">
         practice-carecollabo
       </h1>
       <h2 class="subtitle">
-        My superior Nuxt.js project
+        研修用
       </h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
-          target="_blank"
+          href="/"
           class="button--green"
         >
-          Documentation
+          ユーザー登録（未設定）
         </a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
+          href="/"
           class="button--grey"
         >
-          GitHub
+          サインイン（未設定）
+        </a>
+        <a
+          href="/customers"
+          class="button--grey"
+        >
+          利用者一覧
         </a>
       </div>
     </div>
@@ -29,11 +32,9 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
 
 export default {
   components: {
-    Logo
   }
 }
 </script>
