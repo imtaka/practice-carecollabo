@@ -1,6 +1,10 @@
 <template>
     <div>
         <h2 >ケアプラン新規作成</h2>
+
+
+
+        
     </div>
 </template>
 
