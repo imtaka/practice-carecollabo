@@ -2,10 +2,8 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 import "firebase/auth";
 
-export default (context, inject) => {
-    let fireApp;
-    if (!firebase.apps.length) {
-    fireApp = firebase.initializeApp({
+if (!firebase.apps.length) {
+    firebase.initializeApp({
         apiKey: "API_KEY",
         authDomain: "AUTO_DOMAIN",
         databaseURL: "DATABASE_URL",
@@ -13,9 +11,7 @@ export default (context, inject) => {
         storageBucket: "STORAGE_BUCKET",
         messagingSenderId: "MESSAGING_SENDER_ID",
         appId: "APP_ID"
-});
-} else {
-fireApp = firebase.app();
+    })
 }
-inject("fireApp", fireApp);
-};
+
+export default firebase

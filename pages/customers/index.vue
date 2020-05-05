@@ -15,20 +15,13 @@
 
         <h2 >利用者一覧</h2>
         <ul>
-          <li><a href="/customers">
-            
-            山田　太郎様
-            </a>
-          </li>
-        </ul>
+</ul>
     </div>
 </template>
 
 <script>
 
 export default {
-  components: {
-  }
 }
 </script>
 
