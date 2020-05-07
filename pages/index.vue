@@ -8,22 +8,13 @@
         研修用
       </h2>
       <div class="links">
-        <a
-          href="/"
-          class="button--green"
-        >
+        <a href="/" class="button--green">
           ユーザー登録（未設定）
         </a>
-        <a
-          href="/"
-          class="button--grey"
-        >
+        <a href="/" class="button--grey">
           サインイン（未設定）
         </a>
-        <a
-          href="/customers"
-          class="button--grey"
-        >
+        <a href="/customers" class="button--grey">
           利用者一覧
         </a>
       </div>
@@ -32,10 +23,8 @@
 </template>
 
 <script>
-
 export default {
-  components: {
-  }
+  components: {},
 }
 </script>
 
@@ -50,8 +39,8 @@ export default {
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;

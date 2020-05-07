@@ -1,17 +1,13 @@
 <template>
-    <div>
-        <h2 >ケアプラン一覧</h2>
-    </div>
+  <div>
+    <h2>ケアプラン一覧</h2>
+  </div>
 </template>
 
 <script>
-
 export default {
-  components: {
-  }
+  components: {},
 }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
